@@ -1,0 +1,15 @@
+{
+    "name": "dmc/framework",
+    "autoload": {
+        "psr-4":{
+            "DMC\\Framework\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {"name": "DMC"}
+    ]  
+    ,"require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
